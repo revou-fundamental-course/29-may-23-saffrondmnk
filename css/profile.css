@@ -1,0 +1,175 @@
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -1em;
+
+
+}
+
+.nav-bar {
+   display: flex;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.nav-item {
+   padding: 5px 1em;
+   width: 80px;
+   border-right: 1px solid black;
+   text-align: center;
+   cursor: pointer;
+
+
+}
+
+.nav-item:hover {
+   background-color: lightgrey;
+   margin-top: -1 px;
+}
+
+.nav-bar:last-child {
+   border-right: none;
+}
+
+.logo {
+   height: 3em;
+   padding: 1em;
+}
+
+.hero-background {
+   height: 700px;
+   background-image: url("https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61dee0038171d0896752d056_hero%20banner%20DM%20centered.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.why-join {
+   height: 700px;
+   background-image: url("https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61dee00337b7ec48f892127c_hero%20banner%20DA%20centered.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.title {
+   font-size: 38px;
+   padding-left: 1em;
+   word-wrap: break-word;
+}
+
+p {
+   padding-left: 2em;
+   line-height: 25px;
+   word-wrap: break-word;
+}
+
+.background-text {
+   background-color: black;
+   color: yellow;
+   padding: 1px 1px;
+   line-height: 50px;
+}
+
+.btn {
+   background-color: #FFD700;
+   color: black;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background-color: #0056b3;
+}
+
+.pad {
+   padding-left: 2em;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.card {
+   margin: 1em;
+   background-color: #fff;
+   border-radius: 12px;
+   box-shadow: 0 0px 30px RGB(240, 173, 78);
+   padding: 15px;
+   width: 240px;
+   height: 357px;
+}
+
+.title-card {
+   font-size: 28px;
+   padding-left: 1em;
+   word-wrap: break-word;
+}
+
+.bordered-bottom {
+   border-bottom: 1px solid black;
+   padding-top: 0.5em;
+}
+
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-bottom: 1em;
+}
+
+.border-message {
+   padding: 1em 1em;
+   border: 1px solid black;
+   width: 40%
+}
+
+.email-us {
+   height: 450px;
+   background-color: yellow;
+}
+
+
+@media only screen and (max-width: 1024px) {
+   .hero-background {
+      background-size: auto;
+   }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+   .hero-background {
+      background-size: auto;
+      /* background-position: center; */
+   }
+}
+
+@media only screen and (min-width:320px) and (max-width: 767px) {
+   .hero-background {
+      background-size: auto;
+      /* background-position: center; */
+   }
+
+   .pad {
+      text-align: center;
+   }
+
+   .title,
+   p {
+      text-align: center;
+   }
+
+
+
+}
